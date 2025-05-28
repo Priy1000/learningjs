@@ -15,3 +15,20 @@ console.log(`a:${a}, b:${b}`);
 console.log(`sum:${a+b}`)
 // to embed variables,calculations we can use string interpolation 
 
+/*VIDEO 7
+prefix : the value will increment and store 
+x=4
+y=x++
+op: x=5 and y=5
+
+postfix : the value is stored first and then incremented
+x=4
+y=++x
+op : x=5 and y=4
+*/
+
+/*
+VIDEO 8
+=== it strictly checks comparisons like it even checks the data types of the values
+*/
+console.log("2"===2)
