@@ -32,3 +32,32 @@ VIDEO 8
 === it strictly checks comparisons like it even checks the data types of the values
 */
 console.log("2"===2)
+
+
+/* 
+data types are divided based on how they're stored and accessed
+PRIMITIVE AND NON PRIMITIVE
+
+PRIMITIVE : these are call by value , original value will not be changed only its copy is changed
+NON PRIMITIVE(REFERENCE) : these are call by reference , oroginal value changes 
+
+
+(primitive)7types : String, boolean, int, bigint, symbol, null, undefined
+(non primitive)3 types : arrays, objects, functions
+
+js is dynamically typed language cuz we dont declare any data types unlike c and c++
+this means variable types are declared at run time and , no neeed to explicitly decalre the type of
+a variable before using it. can assign diff types of value to a variable in its lifetime.
+*/
+
+const first=Symbol('hi')
+const second=Symbol('hi')
+console.log(first===second)
+const bignum=3528732743983239273n
+
+
+
+/*
+MEMORY
+STACK(PRIMITIVE), HEAP(NON PRIMITIVE)
+*/
