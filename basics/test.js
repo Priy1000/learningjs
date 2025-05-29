@@ -61,3 +61,50 @@ const bignum=3528732743983239273n
 MEMORY
 STACK(PRIMITIVE), HEAP(NON PRIMITIVE)
 */
+
+/*
+VIDEO 11
+*/
+
+const naam='priya'
+console.log(naam.__proto__)
+//this gives all the methods for that string
+ 
+/*
+video 12
+
+*/
+const num = new Number(200)
+console.log(num.toString().length)
+console.log(num.toFixed(3))
+//decimal value it'll give
+const number=437.78
+console.log(number.toPrecision(3))
+const abacus=7439895
+console.log(abacus.toLocaleString("en-IN"))
+//en -IN converts american standard code of writing numbers like it applies commas n give for readability
+
+console.log(Math.abs(-5))
+console.log(Math.ceil(5.7))
+console.log(Math.floor(5.7))
+console.log(Math.round(5.7))
+/*
+| Number | `ceil()` | `floor()` |
+| ------ | -------- | --------- |
+| 4.3    | 5        | 4         |
+| -4.3   | -4       | -5        |
+
+
+*/
+console.log(Math.random)
+//gives value from 0 to 1
+
+console.log(Math.random()*10 +1)
+//*10 cuz we want to get greater value and 1 is for like if the random value is like 0.004 so inorder to
+//avoid 0 we add 1
+console.log(Math.floor(Math.random()*10) +1)
+
+const minimum=20
+const maximum=30
+console.log(Math.floor(Math.random()*(maximum-minimum+1))+minimum)
+//wt this does is it gives random numbers but we'll set minimum value for th random numbers so +min
