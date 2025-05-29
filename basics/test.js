@@ -69,6 +69,11 @@ VIDEO 11
 const naam='priya'
 console.log(naam.__proto__)
 //this gives all the methods for that string
+const name=new String('Priya')
+//object is created if u wanna create specific data type then use new keyword
+
+console.log(name.charAt(3))
+console.log(name.indexOf('r'))
  
 /*
 video 12
@@ -108,3 +113,4 @@ const minimum=20
 const maximum=30
 console.log(Math.floor(Math.random()*(maximum-minimum+1))+minimum)
 //wt this does is it gives random numbers but we'll set minimum value for th random numbers so +min
+
