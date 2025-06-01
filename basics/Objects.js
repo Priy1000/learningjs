@@ -129,3 +129,4 @@ const {text:t,company:c,location:l}=users
 console.log(t);
 console.log(l);
 
+//json - java script object notation
