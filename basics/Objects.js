@@ -53,3 +53,79 @@ console.log(bumble);
 bumble.name="Priya"
 bumble.location="Japan"
 console.log(bumble);
+
+//nested objects
+const newobj={
+    message:"hi",
+    age:"40",
+    username:{
+        firstname:{
+            nickname:"sammy",
+            name:"sam kapoor"
+        }
+    }
+}
+console.log(newobj.username);
+
+
+
+const obj1={abc:'1',def:'2',ghi:3}
+const obj2={klm:'8',nop:'9'}
+ 
+
+// const obj4=Object.assign({},obj1,obj2)
+// const obj5={obj1,obj2}
+// console.log(obj5);
+//these methods arent used
+
+// console.log(obj4);
+
+
+//spread method which is same in case of merging arrays also
+const obj3={...obj1, ...obj2}
+console.log(obj3);
+
+//when values come from databases they come in the form of arrays
+const user=[
+    {
+        name:"abc",
+        email:"def@gmail.com"
+    },
+    {
+        name:"abc",
+        email:"def@gmail.com"
+    },
+    {
+        name:"abc",
+        email:"def@gmail.com"
+    },
+    {
+        name:"abc",
+        email:"def@gmail.com"
+    } 
+    
+]
+console.log(user[1].name)
+
+console.log(Object.keys(intro));
+console.log(Object.values(intro))
+console.log(Object.entries(intro));
+// all these op' will be in array 
+console.log(Object.hasOwnProperty("name"));
+
+
+
+/*
+VIDEO 18
+*/
+
+//destructuring happens both in arrays and objects
+const users={
+    text:"hello",
+    company:"hennge",
+    location:"japan"
+}
+const {text:t,company:c,location:l}=users
+console.log(t);
+console.log(l);
+
