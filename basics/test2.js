@@ -91,6 +91,7 @@ const vegetables=['potato','tomato','onion','cabbage','carrot']
 
 const merged=[...fruits,...vegetables]
 console.log(merged);
+//spread method to merge 2 arrays
 
 console.log(Array.isArray([1,2]))
 console.log(Array.from("priya"));
